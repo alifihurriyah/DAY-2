@@ -53,13 +53,12 @@ nav .nav-right a {
 
 .container {
   /* background-color: aquamarine; */
-   background-color: white;
-  width: 900px;
+  background-color: white;
   align-items: center;
   padding:50px 50px 50px 50px;
   margin-top: 50px;
   margin-left: 150px;
-  margin-right: 100px;
+  margin-right: 150px;
   margin-bottom: 50px;
   box-shadow: 0px 0px 5px black;
   display: flex;
@@ -168,10 +167,12 @@ section .section-right{
 
 .card-home{
  
-  width: auto;
-  margin-left: 500px;
-  margin-right: 500px;
+  margin: auto;
   margin-top: 50px;
+  width: 50%;
+  padding-left: 100px;
+  padding-right: 100px;
+
 }
 .card-home h3{
   text-align: center;
