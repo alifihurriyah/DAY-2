@@ -53,30 +53,32 @@ nav .nav-right a {
 
 .container {
   /* background-color: aquamarine; */
-  background-color: white;
+  width: 85%;
   align-items: center;
-  padding:50px 50px 50px 50px;
-  margin-top: 50px;
-  margin-left: 150px;
-  margin-right: 150px;
-  margin-bottom: 50px;
+  background-color: white;
+  padding: 50px 50px 50px 50px;
   box-shadow: 0px 0px 5px black;
   display: flex;
-}
-
-.container section {
-
-  display: flex;
-  width: 100%;
-  padding-left: 50px;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
   
 }
 
-section .section-left {
-
-  flex: 65%;
+.container section {
+ width: 85%;
+ display: flex;
+ margin-left: 120px;
+ margin-right: 50px;
 }
-
+.container .section-left{
+  flex: 60%;
+  margin-right: 70px;
+}
+.container .section-right{
+  flex: 30%;
+  padding: 10px 10px 10px 10px;
+}
 
 .section-left .header{
 
@@ -135,34 +137,30 @@ text-align: justify;
 
 }
 
-section .section-right{
 
-  flex: 40%;
-}
 
 .section-right .card{
 
-    
-  text-align: center;
-  width: 200px;
-  height: 300px;
-  margin-left: 30%;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  box-shadow: 0px 0px 5px;
-  text-decoration: none;
-  border-radius: 5px;
+margin-left: 15px;
+width: 235px;
+background-color: white;
+border-radius: 5px;
+box-shadow: 5px;
   
   
 }
 .section-right .card .card-1{
-  width: 200px;
+  width:235px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+}
+.card h3{
+  text-align: center;
 }
   
 .card p{
   margin-top: -20px;
+  text-align: center;
 }
 
 .card-home{
@@ -176,7 +174,8 @@ section .section-right{
 }
 .card-home h3{
   text-align: center;
-  
+  flex:60px;
+
 }
 .card-home div{
   padding-bottom: 5px;
