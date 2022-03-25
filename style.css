@@ -74,6 +74,7 @@ nav .nav-right a {
 .container .section-left{
   flex: 60%;
   margin-right: 70px;
+  
 }
 .container .section-right{
   flex: 30%;
